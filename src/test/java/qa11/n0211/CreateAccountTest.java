@@ -17,35 +17,29 @@ public class CreateAccountTest extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        if (!isElementPresent1(By.linkText("Sign up"))) {
-            wd.findElement(By.xpath("a[contains(text(),'Logout')])")).click();
+        if (!isSign_upTabPresentinHeader()) {
+            logOut();
         }
     }
 
     @Test
 
     public void createAccountTest() {
-        wd.findElement(By.linkText("Sign up")).click();
+        click(By.linkText("Sign up"));
         Assert.assertTrue(isElementPresent1(By.xpath("//*[@class='login-registration-container']")));
 
-        wd.findElement(By.cssSelector("#name")).click();
-        wd.findElement(By.cssSelector("#name")).clear();
-        wd.findElement(By.cssSelector("#name")).sendKeys("Arik");
+        type(By.cssSelector("#name"), "A7rjhse");
 
-        wd.findElement(By.cssSelector("#lastName")).click();
-        wd.findElement(By.cssSelector("#lastName")).clear();
-        wd.findElement(By.cssSelector("#lastName")).sendKeys("Akopjan");
+        type(By.cssSelector("#lastName"), "Ak7jphjejasn");
 
-        wd.findElement(By.cssSelector("#email")).click();
-        wd.findElement(By.cssSelector("#email")).clear();
-        wd.findElement(By.cssSelector("#email")).sendKeys("ara@gmail.com");
+        type(By.cssSelector("#email"), "areja7shk@gmail.com");
 
-        wd.findElement(By.cssSelector("#password")).click();
-        wd.findElement(By.cssSelector("#password")).clear();
-        wd.findElement(By.cssSelector("#password")).sendKeys("AkopjanZ89");
+        type(By.cssSelector("#password"), "Alko7hsjanD89");
 
-        wd.findElement(By.xpath("//div[@class='checkbox-container']")).click();
-
+        click(By.xpath("//div[@class='checkbox-container']"));
+        click(By.xpath("//app-registration/form/button"));
+        click(By.xpath("//button[contains(text(),'Ok')]"));
+        Assert.assertTrue(isLogoutButtonPresent());
     }
 
     //if (!isElementPresent1())) {

@@ -29,7 +29,8 @@ public class TestBase {
         try {
             wd.findElement(locator);
             return true;
-        } catch (NoSuchElementException ex) {
+        }
+        catch (NoSuchElementException ex) {
             return false;
         }
     }
@@ -37,5 +38,40 @@ public class TestBase {
     @AfterMethod (enabled=false)
     public void tearDown() {
         wd.quit();
+    }
+
+    public void type(By locator, String text) {
+        wd.findElement(locator).click();
+        wd.findElement(locator).clear();
+        wd.findElement(locator).sendKeys(text);
+    }
+
+    public void click(By locator) {
+        wd.findElement(locator).click();
+    }
+
+    public boolean isLogoutButtonPresent(){
+        isElementPresent2(By.xpath("//a[contains(text(),'Logout')]"));
+        return true;
+    }
+
+    public void submit() {
+        click(By.xpath("//button[@type='submit']"));
+    }
+
+    public void logOut() {
+        click(By.xpath("//app-navigator/div[1]/a[5]"));
+    }
+
+    public boolean userLoggedIn() {
+        return isElementPresent1(By.xpath("//app-navigator/div[1]/a[5]"));
+    }
+
+    public boolean isSign_upTabPresentinHeader() {
+        return isElementPresent1(By.linkText("Sign up"));
+    }
+
+    public void clickLoginTab() {
+        click(By.xpath("//app-navigator/div[1]/a[6]"));
     }
 }

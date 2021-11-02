@@ -10,42 +10,33 @@ public class HeaderTests extends TestBase {
     @Test
 
     public void letTheCatWorkTest() {
-        wd.findElement(By.xpath("//*[@id='1']")).click();
+        click(By.xpath("//*[@id='1']"));
 
-        isElPres1();
+       isElementPresent2(By.xpath("//*[@id='1']"));
 
     }
 ////body/app-root[1]/app-navigator[1]//app-terms-of-use[1]/div[1]
 
     @Test
     public void termsOfUseTest() {
-        wd.findElement(By.xpath("//*[@id='2']")).click();
+        click(By.xpath("//*[@id='2']"));
 
-        isElpres2(By.cssSelector(".terms-container"));
+        isElementPresent1(By.cssSelector(".terms-container"));
     }
 
 
     @Test
     public void loginButtonTest() {
-        wd.findElement(By.xpath("//app-navigator/div[1]/a[6]")).click();
-        isElpres2(By.xpath("//app-login-registration/././div"));
+        clickLoginTab();
+        LoginFormPresent();
 
     }
 
-    public boolean isElpres2(By locator) {
-        try {
-            wd.findElement(locator);
-            return true;
-        } catch (NoSuchElementException ex) {
-            ;
-            return false;
-
-        }
+    public boolean LoginFormPresent() {
+        return isElementPresent2(By.xpath("//app-login-registration/././div"));
     }
 
-    public boolean isElPres1() {
-        return wd.findElements(By.xpath("//*[@class='search-container']")).size() > 0;
-    }
+
 }
 
 

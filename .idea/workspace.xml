@@ -35,6 +35,7 @@
   </component>
   <component name="ProjectId" id="20M8miDu4m1Ah3gBeSNJ6rMnE05" />
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="public" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
@@ -49,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HeaderTests">
+  <component name="RunManager" selected="TestNG.LoginRegisteredUserTest">
     <configuration name="CreateAccountTest.createAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
@@ -85,42 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeaderTests.letTheCatWorkTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA110211.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="qa11.n0211.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="qa11.n0211" />
-      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
-      <option name="METHOD_NAME" value="letTheCatWorkTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeaderTests.loginButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA110211.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="qa11.n0211.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="qa11.n0211" />
-      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
-      <option name="METHOD_NAME" value="loginButtonTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HeaderTests.termsOfUseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
@@ -139,13 +104,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginRegisteredUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.LoginRegisteredUserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginRegisteredUserTest.loginRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.LoginRegisteredUserTest" />
+      <option name="METHOD_NAME" value="loginRegisteredUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginRegisteredUserTest" />
         <item itemvalue="TestNG.HeaderTests" />
-        <item itemvalue="TestNG.HeaderTests.termsOfUseTest" />
-        <item itemvalue="TestNG.HeaderTests.loginButtonTest" />
-        <item itemvalue="TestNG.HeaderTests.letTheCatWorkTest" />
+        <item itemvalue="TestNG.LoginRegisteredUserTest.loginRegisteredUser" />
         <item itemvalue="TestNG.CreateAccountTest.createAccountTest" />
+        <item itemvalue="TestNG.HeaderTests.termsOfUseTest" />
       </list>
     </recent_temporary>
   </component>

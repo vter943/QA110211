@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="854ad54d-283b-4202-99dd-1cb69c8050b9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20M8miDu4m1Ah3gBeSNJ6rMnE05" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.HeaderTests">
+    <configuration name="CreateAccountTest.createAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.CreateAccountTest" />
+      <option name="METHOD_NAME" value="createAccountTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderTests.letTheCatWorkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
+      <option name="METHOD_NAME" value="letTheCatWorkTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderTests.loginButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
+      <option name="METHOD_NAME" value="loginButtonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderTests.termsOfUseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
+      <option name="METHOD_NAME" value="termsOfUseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HeaderTests" />
+        <item itemvalue="TestNG.HeaderTests.termsOfUseTest" />
+        <item itemvalue="TestNG.HeaderTests.loginButtonTest" />
+        <item itemvalue="TestNG.HeaderTests.letTheCatWorkTest" />
+        <item itemvalue="TestNG.CreateAccountTest.createAccountTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854ad54d-283b-4202-99dd-1cb69c8050b9" name="Default Changelist" comment="" />
+      <created>1635843256418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635843256418</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

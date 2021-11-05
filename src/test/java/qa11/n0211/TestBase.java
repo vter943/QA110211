@@ -74,4 +74,9 @@ public class TestBase {
     public void clickLoginTab() {
         click(By.xpath("//app-navigator/div[1]/a[6]"));
     }
+
+    public void fillLoginForm(User user) {
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
+    }
 }

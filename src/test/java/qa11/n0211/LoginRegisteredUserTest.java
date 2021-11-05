@@ -19,8 +19,9 @@ public class LoginRegisteredUserTest extends TestBase {
     @Test
     public void loginRegisteredUser() {
 
-        type(By.cssSelector("#email"), "arjak@gmail.com");
-        type(By.cssSelector("#password"), "AkojaanD89");
+        fillLoginForm(new User()
+                .setEmail("vitter2@mail.ru")
+                .setPassword( "Antwort455"));
         submit();
         click(By.xpath("//button[contains(text(),'Ok')]"));
         Assert.assertTrue(isLogoutButtonPresent());

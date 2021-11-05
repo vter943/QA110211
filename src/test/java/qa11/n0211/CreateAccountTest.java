@@ -28,18 +28,23 @@ public class CreateAccountTest extends TestBase {
         click(By.linkText("Sign up"));
         Assert.assertTrue(isElementPresent1(By.xpath("//*[@class='login-registration-container']")));
 
-        type(By.cssSelector("#name"), "A7rjhse");
-
-        type(By.cssSelector("#lastName"), "Ak7jphjejasn");
-
-        type(By.cssSelector("#email"), "areja7shk@gmail.com");
-
-        type(By.cssSelector("#password"), "Alko7hsjanD89");
+        fillSignUpForm(new User()
+                .setName("A7rghhse")
+                .setLastname("Akwasjan")
+                .setEmail("arwasjan@gmail.com")
+                .setPassword("AlWasjan89"));
 
         click(By.xpath("//div[@class='checkbox-container']"));
         click(By.xpath("//app-registration/form/button"));
         click(By.xpath("//button[contains(text(),'Ok')]"));
         Assert.assertTrue(isLogoutButtonPresent());
+    }
+
+    public void fillSignUpForm(User user) {
+        type(By.cssSelector("#name"), user.getName());
+        type(By.cssSelector("#lastName"), user.getLastname());
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
     }
 
     //if (!isElementPresent1())) {

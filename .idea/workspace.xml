@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddCarFormTest">
+  <component name="RunManager" selected="TestNG.AddCarFormTest.addCarFormTest">
     <configuration name="AddCarFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
@@ -104,23 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeaderTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA110211.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="qa11.n0211.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="qa11.n0211" />
-      <option name="MAIN_CLASS_NAME" value="qa11.n0211.HeaderTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginRegisteredUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
@@ -138,13 +121,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddCarFormTest" />
         <item itemvalue="TestNG.AddCarFormTest.addCarFormTest" />
-        <item itemvalue="TestNG.CreateAccountTest.createAccountTest" />
+        <item itemvalue="TestNG.AddCarFormTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.LoginRegisteredUserTest" />
-        <item itemvalue="TestNG.HeaderTests" />
+        <item itemvalue="TestNG.CreateAccountTest.createAccountTest" />
       </list>
     </recent_temporary>
   </component>

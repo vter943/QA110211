@@ -29,10 +29,10 @@ public class CreateAccountTest extends TestBase {
         Assert.assertTrue(isElementPresent1(By.xpath("//*[@class='login-registration-container']")));
 
         fillSignUpForm(new User()
-                .setName("A7rghhse")
-                .setLastname("Akwasjan")
-                .setEmail("arwasjan@gmail.com")
-                .setPassword("AlWasjan89"));
+                .setName("A7rghhes")
+                .setLastname("Akwasjna")
+                .setEmail("arwasjna@gmail.com")
+                .setPassword("AlWasjna89"));
 
         click(By.xpath("//div[@class='checkbox-container']"));
         click(By.xpath("//app-registration/form/button"));

@@ -8,9 +8,10 @@ import org.testng.annotations.Test;
 
 public class AddCarFormTest extends TestBase {
 
-   @BeforeMethod
+  /* @BeforeMethod
     public void ensurePreconditions() {
         if (!userLoggedIn()) {
+            clickLoginTab();
             fillLoginForm(new User()
                     .setEmail("vitter2@mail.ru")
                     .setPassword("Antwort455"));
@@ -18,11 +19,11 @@ public class AddCarFormTest extends TestBase {
             click(By.xpath("//button[contains(text(),'Ok')]"));
             isElementPresent2(By.xpath("//*[@id='1']"));
         }
-    }
+    }*/
 
     @Test
 
-    public void addCarFormTest()  {
+    public void addCarFormTest() {
         fillTheCarForm(new Car()
                 .setPickUpPlace("Herzl Street 1, Tel Aviv, Israel")
                 .setMake("Skoda")
@@ -35,13 +36,15 @@ public class AddCarFormTest extends TestBase {
                 .setFuelConsumption("12")
                 .setSerialNumber("35-26-bg")
                 .setPrice("250")
-                .setDistance("500") );
+                .setDistance("500"));
 
     }
 
-    public void fillTheCarForm(Car car) {
+    public void fillTheCarForm(Car car)  {
         click(By.xpath("//a[@id='1']"));
         type(By.cssSelector("#pickUpPlace"), car.getPickUpPlace());
+
+        //click(By.xpath("/html/body/app-root/app-navigator/app-let-car-work/div/form/div[2]"));
         type(By.cssSelector("#make"), car.getMake());
         type(By.cssSelector("#model"), car.getModel());
         type(By.cssSelector("#year"), car.getYear());
@@ -49,7 +52,6 @@ public class AddCarFormTest extends TestBase {
         WebElement selectFuel = wd.findElement(By.xpath("//*[@id='fuel']"));
         Select select = new Select(selectFuel);
         select.selectByIndex(1);
-
 
 
         wd.findElement(By.xpath("//*[@id='gear']")).click();

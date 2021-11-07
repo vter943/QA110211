@@ -64,7 +64,7 @@ public class TestBase {
     }
 
     public boolean userLoggedIn() {
-        return isElementPresent1(By.xpath("//app-navigator/div[1]/a[5]"));
+        return isElementPresent1(By.xpath("//a[contains(text(),'Logout')]"));
     }
 
     public boolean isSign_upTabPresentinHeader() {
@@ -72,7 +72,7 @@ public class TestBase {
     }
 
     public void clickLoginTab() {
-        click(By.xpath("//app-navigator/div[1]/a[6]"));
+        click(By.xpath("//a[contains (text(),'Log in')"));
     }
 
     public void fillLoginForm(User user) {

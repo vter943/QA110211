@@ -7,8 +7,8 @@ public class AddCarFormTest extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        if (!userLoggedIn()) {
-            logIn();
+        if (!app.getUser().userLoggedIn()) {
+            app.getUser().logIn();
             // logInRegisteredUser();
         }
     }
@@ -17,9 +17,9 @@ public class AddCarFormTest extends TestBase {
     public void addCarFormTest() throws InterruptedException {
 
         {
-            openAddCarFormFromHeader();
-            pause(100);
-            fillTheCarForm(new Car()
+            app.getHeader().openAddCarFormFromHeader();
+            app.getUser().pause(100);
+            app.getCar().fillTheCarForm(new Car()
                     .setPickUpPlace("Herzl Street 1, Tel Aviv, Israel")
                     .setMake("Skoda")
                     .setModel("Q7")
@@ -38,8 +38,8 @@ public class AddCarFormTest extends TestBase {
 
     @Test
     public void addCarWithoutDoorsTest() {
-        openAddCarFormFromHeader();
-        fillTheCarForm(new Car()
+        app.getHeader().openAddCarFormFromHeader();
+        app.getCar().fillTheCarForm(new Car()
                 .setPickUpPlace("Herzl Street 2, Tel Aviv, Israel")
                 .setMake("Skoda")
                 .setModel("Q7")

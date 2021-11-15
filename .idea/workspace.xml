@@ -38,6 +38,11 @@
     <property name="extract.method.default.visibility" value="public" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="qa11.n0211" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -50,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.qa11.n0211">
     <configuration name="AddCarFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
@@ -68,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccountTest.createAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +83,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="qa11.n0211" />
       <option name="MAIN_CLASS_NAME" value="qa11.n0211.CreateAccountTest" />
-      <option name="METHOD_NAME" value="createAccountTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.AddCarFormTest" />
         <item itemvalue="TestNG.qa11.n0211" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.CreateAccountTest" />
+        <item itemvalue="TestNG.AddCarFormTest" />
         <item itemvalue="TestNG.LoginRegisteredUserTest" />
-        <item itemvalue="TestNG.CreateAccountTest.createAccountTest" />
       </list>
     </recent_temporary>
   </component>

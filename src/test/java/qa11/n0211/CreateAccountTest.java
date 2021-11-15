@@ -1,7 +1,6 @@
 package qa11.n0211;
 
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -17,29 +16,29 @@ public class CreateAccountTest extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        if (!isSign_upTabPresentinHeader()) {
-            logOut();
+        if (!app.getHeader().isSign_upTabPresentinHeader()) {
+            app.getUser().logOut();
         }
     }
 
     @Test
     public void createAccountTest() {
-        openSignUpFormFromHeader();
+        app.getHeader().openSignUpFormFromHeader();
 
         fillSignUpForm(new User()
-                .setName("A999kkks")
-                .setLastname("A999uhna")
-                .setEmail("arwa999@gmail.com")
-                .setPassword("AlWaskk999"));
+                .setName("A9gggach")
+                .setLastname("Aggg5uhnach")
+                .setEmail("arwtgggch9@gmail.com")
+                .setPassword("Algggch9kk999"));
 
-        clickRegistrationButtons();
+        app.getUser().clickRegistrationButtons();
     }
 
     public void fillSignUpForm(User user) {
-        type(By.cssSelector("#name"), user.getName());
-        type(By.cssSelector("#lastName"), user.getLastname());
-        type(By.cssSelector("#email"), user.getEmail());
-        type(By.cssSelector("#password"), user.getPassword());
+        app.getUser().type(By.cssSelector("#name"), user.getName());
+        app.getUser().type(By.cssSelector("#lastName"), user.getLastname());
+        app.getUser().type(By.cssSelector("#email"), user.getEmail());
+        app.getUser().type(By.cssSelector("#password"), user.getPassword());
     }
 
     //if (!isElementPresent1())) {

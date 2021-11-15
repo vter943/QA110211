@@ -23,21 +23,16 @@ public class CreateAccountTest extends TestBase {
     }
 
     @Test
-
     public void createAccountTest() {
-        click(By.linkText("Sign up"));
-        Assert.assertTrue(isElementPresent1(By.xpath("//*[@class='login-registration-container']")));
+        openSignUpFormFromHeader();
 
         fillSignUpForm(new User()
-                .setName("A7rghhes")
-                .setLastname("Akwasjna")
-                .setEmail("arwasjna@gmail.com")
-                .setPassword("AlWasjna89"));
+                .setName("A999kkks")
+                .setLastname("A999uhna")
+                .setEmail("arwa999@gmail.com")
+                .setPassword("AlWaskk999"));
 
-        click(By.xpath("//div[@class='checkbox-container']"));
-        click(By.xpath("//app-registration/form/button"));
-        click(By.xpath("//button[contains(text(),'Ok')]"));
-        Assert.assertTrue(isLogoutButtonPresent());
+        clickRegistrationButtons();
     }
 
     public void fillSignUpForm(User user) {

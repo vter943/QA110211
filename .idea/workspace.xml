@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddCarFormTest.addCarFormTest">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="AddCarFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA110211.test" />
       <extension name="coverage">
@@ -62,24 +62,6 @@
       <option name="PACKAGE_NAME" value="qa11.n0211" />
       <option name="MAIN_CLASS_NAME" value="qa11.n0211.AddCarFormTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddCarFormTest.addCarFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA110211.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="qa11.n0211.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="qa11.n0211" />
-      <option name="MAIN_CLASS_NAME" value="qa11.n0211.AddCarFormTest" />
-      <option name="METHOD_NAME" value="addCarFormTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,11 +113,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="qa11.n0211" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA110211.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa11.n0211.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa11.n0211" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddCarFormTest.addCarFormTest" />
-        <item itemvalue="TestNG.AddCarFormTest" />
         <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.AddCarFormTest" />
+        <item itemvalue="TestNG.qa11.n0211" />
         <item itemvalue="TestNG.LoginRegisteredUserTest" />
         <item itemvalue="TestNG.CreateAccountTest.createAccountTest" />
       </list>
